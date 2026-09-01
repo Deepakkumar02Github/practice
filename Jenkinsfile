@@ -13,12 +13,6 @@ pipeline {
             }
         }
 
-        stage('Git Checkout') {
-            steps {
-                git( "https://github.com/Deepakkumar02Github/practice.git" )
-            }
-        }
-
         stage('List Files') {
             steps {
                 bat 'dir'
