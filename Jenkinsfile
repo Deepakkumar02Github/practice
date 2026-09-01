@@ -15,7 +15,7 @@ pipeline {
 
         stage('Git Checkout') {
             steps {
-                git( "" )
+                git( "https://github.com/Deepakkumar02Github/practice.git" )
             }
         }
 
